@@ -1,0 +1,64 @@
+
+html {
+    cursor: none; 
+    overflow: hidden;
+  }
+
+  .custom-cursor {
+    position: absolute;
+    width: 15px;
+    height: 22px;
+    background-image: url("cursor.png");
+    background-size: 15px;
+    pointer-events: none; /* Make sure cursor doesn't interfere with button clicks */
+    transition: transform 0s linear; /* Smooth transition for rotation */
+  }
+  
+  
+  .button1 {
+    cursor: none; 
+    overflow: hidden;
+    margin-top: 500px;
+    width: 200px;
+    height: 70px;
+    border-radius: 40px;
+    background-color: dodgerblue; /* Button color */
+    box-shadow: 0 12px 16px 0 rgba(4, 136, 212, 0.24),0 17px 50px 0 rgba(7, 247, 255, 0.19);
+    transition: 0.8s;
+    border: none;
+    margin-right: 100px;
+  }
+
+  .button1:hover{
+    background-color: limegreen;
+    box-shadow: 0 12px 16px 0 rgba(27, 16, 177, 0.363),0 17px 50px 0 rgba(0, 4, 255, 0.301);
+  }
+
+  .button2{
+    margin-left: 100px;
+    overflow: hidden;
+    width: 200px;
+    height: 70px;
+    border-radius: 40px;
+    background-color: dodgerblue; /* Button color */
+    box-shadow: 0 12px 16px 0 rgba(4, 136, 212, 0.24),0 17px 50px 0 rgba(7, 247, 255, 0.19);
+    transition: 0.8s;
+    border: none;
+  }
+
+  .button2:hover{
+    cursor: not-allowed; 
+    background-color: darkred;
+    box-shadow: 0 12px 16px 0 rgba(161, 15, 15, 0.363),0 17px 50px 0 rgba(255, 0, 0, 0.301);
+  }
+
+  .container{
+    text-align: center;
+  }
+  
+  .svg{
+    display: none;
+    opacity: 0; /* Initially hide the SVG */
+    transition: opacity 0.8s ease;
+    
+  }
