@@ -49,14 +49,14 @@ const cursor = document.querySelector('.custom-cursor');
   button.addEventListener('click', e=> {
     svg.style.display = 'block';
     setTimeout(() => {
-        svg.style.opacity = '1'; // Set opacity to 1 after a short delay
+        svg.style.opacity = '1';
     }, 700);
   })
 
   button.addEventListener('click', e=> {
     svg2.style.display = 'block';
     setTimeout(() => {
-        svg2.style.opacity = '1'; // Set opacity to 1 after a short delay
+        svg2.style.opacity = '1';
     }, 700);
   })
 
@@ -75,7 +75,7 @@ const cursor = document.querySelector('.custom-cursor');
     }, 500);
     eu.style.display = 'none';
     eu2.style.display = 'block';
-    h2.textContent = 'Oops! A aparut o eroare. Ce ai zice sa incerci iar?';
+    h2.textContent = 'Oops! An error occurred. What do you say to try again?';
   })
 
   button.addEventListener('click', e=>{
@@ -98,5 +98,5 @@ const cursor = document.querySelector('.custom-cursor');
   setTimeout(() => {
       timon.style.opacity = '1';
   }, 500);
-  h2.innerHTML = "&#129717; &#129717; Love u Mangusta! &#129717; &#129717;";
+  h2.innerHTML = "That's the spirit! Hope you're ready for a crunchy snack!";
 })

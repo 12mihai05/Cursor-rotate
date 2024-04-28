@@ -120,6 +120,14 @@ body{
   margin-left: 150px;
 }
 
-.timon-hearts{
-  position: relative;
+.eu2{
+  display: none;
+  width:250px;
+  height: 250px;
+  display: none;
+}
+
+.yack{
+  display: flex;
+  justify-content: center;
 }
