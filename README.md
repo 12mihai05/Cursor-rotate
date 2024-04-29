@@ -14,7 +14,7 @@ Welcome to Cursor-Rotate, where the cursor always knows what it wants: Yes! This
 - Using the `mousemove` event, the script calculates the angle between the cursor and the center of the "Yes" button. It then adjusts the cursor's CSS transform property to rotate it towards this button.
 
 ### Event Handling
-- **Mouse Over and Out Events:** When the mouse hovers over the "No" button (`button2`), the custom cursor's image is temporarily removed. It reappears when the mouse leaves this button.
+- **Mouse Over and Out Events:** When the mouse hovers over the "No" button (`button2`), the custom cursor's image is temporarily changed with not-allowed cursor. It reappears when the mouse leaves this button.
 - **Click Events on Buttons:** Both buttons have click events that trigger animations and visual changes. For example, clicking the "Yes" button shows SVG animations and changes the page's content after a slight delay, emphasizing the app's playful theme.
 - **Dynamic Content Changes:** Depending on which button is clicked, the text and visible elements on the page are adjusted. This includes showing error messages or confirming the user's agreement with humorous feedback.
 
